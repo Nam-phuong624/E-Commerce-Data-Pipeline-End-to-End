@@ -1,0 +1,13 @@
+# Xử lý dữ liệu
+pandas==2.2.0
+numpy==1.26.4
+
+# Kết nối Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+
+# Giả lập dữ liệu (Dùng trong script generate_hcm_data.py)
+Faker==22.6.0
+
+# Tiện ích bổ sung (nếu bạn chạy notebook eda.ipynb trong container)
+ipykernel

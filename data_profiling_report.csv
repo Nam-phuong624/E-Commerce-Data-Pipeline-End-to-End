@@ -1,0 +1,143 @@
+table_name,column_name,kiểu dữ liệu,số giá trị null (%),số giá trị null (số dòng),5 giá trị unique
+HCM (RDBMS)_orders_dataset,customer_id,object,0.00%,0,"['CUST_427', 'CUST_214', 'CUST_179', 'CUST_302', 'CUST_129']"
+HN (CSV)_orders_dataset,customer_id,object,0.00%,0,"['CUST_HN_37', 'CUST_HN_36', 'CUST_HN_117', 'CUST_HN_102', 'CUST_HN_72']"
+DN (CSV)_orders_dataset,customer_id,object,0.00%,0,"['CUST_DN_63', 'CUST_DN_40', 'CUST_DN_73', 'CUST_DN_50', 'CUST_DN_58']"
+HCM (RDBMS)_orders_dataset,order_approved_at,datetime64[ns],0.00%,0,"[Timestamp('2020-01-01 11:00:00'), Timestamp('2020-01-01 18:00:00'), Timestamp('2020-01-01 16:00:00'), Timestamp('2020-01-01 22:00:00'), Timestamp('2020-01-01 10:00:00')]"
+HN (CSV)_orders_dataset,order_approved_at,object,0.00%,0,"['01/01/2020 12:00', '01/01/2020 19:00', '01/01/2020 10:00', '01/01/2020 15:00', '01/01/2020 16:00']"
+DN (CSV)_orders_dataset,order_approved_at,object,0.00%,0,"['2020/01/01 19:00', '2020/01/01 13:00', '2020/01/01 14:00', '2020/01/01 17:00', '2020/01/01 16:00']"
+HCM (RDBMS)_orders_dataset,order_delivered_carrier_date,datetime64[ns],0.00%,0,"[Timestamp('2020-01-02 09:00:00'), Timestamp('2020-01-02 16:00:00'), Timestamp('2020-01-02 14:00:00'), Timestamp('2020-01-02 20:00:00'), Timestamp('2020-01-02 08:00:00')]"
+HN (CSV)_orders_dataset,order_delivered_carrier_date,object,0.00%,0,"['02/01/2020 10:00', '02/01/2020 17:00', '02/01/2020 08:00', '02/01/2020 13:00', '02/01/2020 14:00']"
+DN (CSV)_orders_dataset,order_delivered_carrier_date,object,0.00%,0,"['2020/01/03 18:00', '2020/01/03 12:00', '2020/01/03 13:00', '2020/01/03 16:00', '2020/01/03 15:00']"
+HCM (RDBMS)_orders_dataset,order_delivered_customer_date,datetime64[ns],0.00%,0,"[Timestamp('2020-01-19 09:00:00'), Timestamp('2020-01-31 16:00:00'), Timestamp('2019-12-31 14:00:00'), Timestamp('2020-01-26 20:00:00'), Timestamp('2020-01-27 16:00:00')]"
+HN (CSV)_orders_dataset,order_delivered_customer_date,object,0.00%,0,"['17/01/2020 10:00', '25/01/2020 17:00', '30/01/2020 17:00', '19/01/2020 08:00', '22/01/2020 13:00']"
+DN (CSV)_orders_dataset,order_delivered_customer_date,object,0.00%,0,"['2020/01/24 18:00', '2020/02/04 12:00', '2020/01/30 13:00', '2020/02/07 16:00', '2020/02/04 15:00']"
+HCM (RDBMS)_orders_dataset,order_estimated_delivery_date,datetime64[ns],0.00%,0,"[Timestamp('2020-01-21 09:00:00'), Timestamp('2020-02-02 16:00:00'), Timestamp('2020-01-25 14:00:00'), Timestamp('2020-01-28 20:00:00'), Timestamp('2020-01-29 16:00:00')]"
+HN (CSV)_orders_dataset,order_estimated_delivery_date,object,0.00%,0,"['19/01/2020 10:00', '27/01/2020 17:00', '01/02/2020 17:00', '21/01/2020 08:00', '24/01/2020 13:00']"
+DN (CSV)_orders_dataset,order_estimated_delivery_date,object,0.00%,0,"['2020/01/27 18:00', '2020/02/07 12:00', '2020/02/02 13:00', '2020/02/10 16:00', '2020/02/07 15:00']"
+HCM (RDBMS)_orders_dataset,order_id,object,0.00%,0,"['eb861063', 'a0a16ad4', '031cf878', '0860edc0', '34dbc307']"
+HN (CSV)_orders_dataset,order_id,object,0.00%,0,"['0c6c1348', '06d5050a', 'e1b01151', 'a1adbc48', '6d28187c']"
+DN (CSV)_orders_dataset,order_id,object,0.00%,0,"['3badd95f', '081b3cfa', 'c1bf0c45', '24a14f64', 'f0732372']"
+HCM (RDBMS)_orders_dataset,order_purchase_timestamp,datetime64[ns],0.00%,0,"[Timestamp('2020-01-01 09:00:00'), Timestamp('2020-01-01 16:00:00'), Timestamp('2020-01-01 14:00:00'), Timestamp('2020-01-01 20:00:00'), Timestamp('2020-01-01 08:00:00')]"
+HN (CSV)_orders_dataset,order_purchase_timestamp,object,0.00%,0,"['01/01/2020 10:00', '01/01/2020 17:00', '01/01/2020 08:00', '01/01/2020 13:00', '01/01/2020 14:00']"
+DN (CSV)_orders_dataset,order_purchase_timestamp,object,0.00%,0,"['2020/01/01 18:00', '2020/01/01 12:00', '2020/01/01 13:00', '2020/01/01 16:00', '2020/01/01 15:00']"
+HCM (RDBMS)_orders_dataset,order_status,object,0.00%,0,['delivered']
+HN (CSV)_orders_dataset,order_status,object,0.00%,0,['đã giao']
+DN (CSV)_orders_dataset,order_status,object,0.00%,0,['DELIVERED']
+,,,,,
+HCM (RDBMS)_order_items_dataset,freight_value,float64,0.00%,0,[10.0]
+HN (CSV)_order_items_dataset,freight_value,float64,0.00%,0,[15.0]
+DN (CSV)_order_items_dataset,freight_value,float64,0.00%,0,[20.0]
+HCM (RDBMS)_order_items_dataset,order_id,object,0.00%,0,"['eb861063', 'a0a16ad4', '031cf878', '0860edc0', '34dbc307']"
+HN (CSV)_order_items_dataset,order_id,object,0.00%,0,"['0c6c1348', '06d5050a', 'e1b01151', 'a1adbc48', '6d28187c']"
+DN (CSV)_order_items_dataset,order_id,object,0.00%,0,"['3badd95f', '081b3cfa', 'c1bf0c45', '24a14f64', 'f0732372']"
+HCM (RDBMS)_order_items_dataset,order_item_id,int64,0.00%,0,[1]
+HN (CSV)_order_items_dataset,order_item_id,int64,0.00%,0,[1]
+DN (CSV)_order_items_dataset,order_item_id,int64,0.00%,0,[1]
+HCM (RDBMS)_order_items_dataset,price,float64,0.00%,0,"[408.8, 582.95, 226.43, 868.06, 748.28]"
+HN (CSV)_order_items_dataset,price,float64,0.00%,0,"[641.11, 577.9, 352.51, 350.68, 544.26]"
+DN (CSV)_order_items_dataset,price,float64,0.00%,0,"[446.31, 566.54, 293.38, 410.9, 281.0]"
+HCM (RDBMS)_order_items_dataset,product_id,object,0.00%,0,"['PROD_35', 'PROD_44', 'PROD_76', 'PROD_90', 'PROD_84']"
+HN (CSV)_order_items_dataset,product_id,object,0.00%,0,"['PROD_32', 'PROD_15', 'PROD_23', 'PROD_61', 'PROD_70']"
+DN (CSV)_order_items_dataset,product_id,object,0.00%,0,"['PROD_19', 'PROD_40', 'PROD_56', 'PROD_60', 'PROD_30']"
+HCM (RDBMS)_order_items_dataset,seller_id,object,0.00%,0,"['SELL_27', 'SELL_25', 'SELL_18', 'SELL_31', 'SELL_49']"
+HN (CSV)_order_items_dataset,seller_id,object,0.00%,0,"['SELL_HN_1', 'SELL_HN_3', 'SELL_HN_9', 'SELL_HN_6', 'SELL_HN_0']"
+DN (CSV)_order_items_dataset,seller_id,object,0.00%,0,"['SELL_DN_1', 'SELL_DN_3', 'SELL_DN_2', 'SELL_DN_0', 'SELL_DN_4']"
+HCM (RDBMS)_order_items_dataset,shipping_limit_date,datetime64[ns],0.00%,0,"[Timestamp('2020-01-04 09:00:00'), Timestamp('2020-01-04 16:00:00'), Timestamp('2020-01-04 14:00:00'), Timestamp('2020-01-04 20:00:00'), Timestamp('2020-01-04 08:00:00')]"
+HN (CSV)_order_items_dataset,shipping_limit_date,object,0.00%,0,"['04/01/2020 10:00', '04/01/2020 17:00', '04/01/2020 08:00', '04/01/2020 13:00', '04/01/2020 14:00']"
+DN (CSV)_order_items_dataset,shipping_limit_date,object,0.00%,0,"['2020/01/06 18:00', '2020/01/06 12:00', '2020/01/06 13:00', '2020/01/06 16:00', '2020/01/06 15:00']"
+,,,,,
+HCM (RDBMS)_products_dataset,product_category_name,object,0.00%,0,"['tools', 'lubricants', 'bearings', 'seals']"
+HN (CSV)_products_dataset,product_category_name,object,0.00%,0,"['phớt chặn', 'vòng bi', 'dụng cụ', 'mỡ bôi trơn']"
+DN (CSV)_products_dataset,product_category_name,object,18.00%,18,"['tools', 'lubricants', 'seals', 'bearings']"
+HCM (RDBMS)_products_dataset,product_height_cm,int64,0.00%,0,"[9, 14, 16, 13, 18]"
+HN (CSV)_products_dataset,product_height_cm,int64,0.00%,0,"[20, 17, 13, 5, 14]"
+DN (CSV)_products_dataset,product_height_cm,int64,0.00%,0,"[16, 15, 12, 11, 14]"
+HCM (RDBMS)_products_dataset,product_id,object,0.00%,0,"['PROD_0', 'PROD_1', 'PROD_2', 'PROD_3', 'PROD_4']"
+HN (CSV)_products_dataset,product_id,object,0.00%,0,"['PROD_0', 'PROD_1', 'PROD_2', 'PROD_3', 'PROD_4']"
+DN (CSV)_products_dataset,product_id,object,0.00%,0,"['PROD_0', 'PROD_1', 'PROD_2', 'PROD_3', 'PROD_4']"
+HCM (RDBMS)_products_dataset,product_length_cm,int64,0.00%,0,"[33, 36, 31, 24, 41]"
+HN (CSV)_products_dataset,product_length_cm,int64,0.00%,0,"[41, 29, 24, 18, 12]"
+DN (CSV)_products_dataset,product_length_cm,int64,0.00%,0,"[28, 39, 18, 17, 12]"
+HCM (RDBMS)_products_dataset,product_weight_g,int64,0.00%,0,"[2059, 1735, 4954, 4264, 1419]"
+HN (CSV)_products_dataset,product_weight_g,int64,0.00%,0,"[565, 1033, 1824, 880, 1697]"
+DN (CSV)_products_dataset,product_weight_g,int64,0.00%,0,"[2759, 4747, 1758, 2145, 3242]"
+HCM (RDBMS)_products_dataset,product_width_cm,int64,0.00%,0,"[46, 42, 23, 45, 20]"
+HN (CSV)_products_dataset,product_width_cm,int64,0.00%,0,"[24, 25, 23, 38, 17]"
+DN (CSV)_products_dataset,product_width_cm,int64,0.00%,0,"[16, 49, 30, 35, 11]"
+,,,,,
+HCM (RDBMS)_order_customer_dataset,customer_city,object,0.00%,0,['Thành phố Hồ Chí Minh']
+HN (CSV)_order_customer_dataset,customer_city,object,0.00%,0,['Hà Nội']
+DN (CSV)_order_customer_dataset,customer_city,object,0.00%,0,['Đà Nẵng']
+HCM (RDBMS)_order_customer_dataset,customer_id,object,0.00%,0,"['CUST_0', 'CUST_1', 'CUST_2', 'CUST_3', 'CUST_4']"
+HN (CSV)_order_customer_dataset,customer_id,object,0.00%,0,"['CUST_HN_0', 'CUST_HN_1', 'CUST_HN_2', 'CUST_HN_3', 'CUST_HN_4']"
+DN (CSV)_order_customer_dataset,customer_id,object,0.00%,0,"['CUST_DN_0', 'CUST_DN_1', 'CUST_DN_2', 'CUST_DN_3', 'CUST_DN_4']"
+HCM (RDBMS)_order_customer_dataset,customer_state,object,0.00%,0,['HCMC']
+HN (CSV)_order_customer_dataset,customer_state,object,0.00%,0,['HN']
+DN (CSV)_order_customer_dataset,customer_state,object,0.00%,0,['DN']
+HCM (RDBMS)_order_customer_dataset,customer_unique_id,object,0.00%,0,"['f7a9808b', '2df2282d', '43bccfba', '9c188d8f', '2ad435ac']"
+HN (CSV)_order_customer_dataset,customer_unique_id,object,0.00%,0,"['e903b6ee', '5fe07205', 'a1713463', '0029a623', 'ed30c9be']"
+DN (CSV)_order_customer_dataset,customer_unique_id,object,0.00%,0,"['5fe52ea1', '20345f18', '2e9e1232', '38da3fe7', 'd058bd81']"
+HCM (RDBMS)_order_customer_dataset,customer_zip_code_prefix,int64,0.00%,0,"[1011, 1017, 1007, 1009, 1044]"
+HN (CSV)_order_customer_dataset,customer_zip_code_prefix,int64,0.00%,0,"[2016, 2000, 2015, 2017, 2006]"
+DN (CSV)_order_customer_dataset,customer_zip_code_prefix,int64,0.00%,0,"[5013, 5002, 5012, 5006, 5014]"
+,,,,,
+HCM (RDBMS)_order_payments_dataset,order_id,object,0.00%,0,"['eb861063', 'a0a16ad4', '031cf878', '0860edc0', '34dbc307']"
+HN (CSV)_order_payments_dataset,order_id,object,0.00%,0,"['0c6c1348', '06d5050a', 'e1b01151', 'a1adbc48', '6d28187c']"
+DN (CSV)_order_payments_dataset,order_id,object,0.00%,0,"['3badd95f', '081b3cfa', 'c1bf0c45', '24a14f64', 'f0732372']"
+HCM (RDBMS)_order_payments_dataset,payment_installments,int64,0.00%,0,[1]
+HN (CSV)_order_payments_dataset,payment_installments,int64,0.00%,0,[1]
+DN (CSV)_order_payments_dataset,payment_installments,int64,0.00%,0,[1]
+HCM (RDBMS)_order_payments_dataset,payment_sequential,int64,0.00%,0,[1]
+HN (CSV)_order_payments_dataset,payment_sequential,int64,0.00%,0,[1]
+DN (CSV)_order_payments_dataset,payment_sequential,int64,0.00%,0,[1]
+HCM (RDBMS)_order_payments_dataset,payment_type,object,0.00%,0,['credit_card']
+HN (CSV)_order_payments_dataset,payment_type,object,0.00%,0,['thẻ tín dụng']
+DN (CSV)_order_payments_dataset,payment_type,object,0.00%,0,['credit_card']
+HCM (RDBMS)_order_payments_dataset,payment_value,float64,0.00%,0,"[418.8, 592.95, 236.43, 878.06, 758.28]"
+HN (CSV)_order_payments_dataset,payment_value,object,0.00%,0,"['656,11', '592,9', '367,51', '365,68', '559,26']"
+DN (CSV)_order_payments_dataset,payment_value,object,0.00%,0,"['466.31 VND', '586.54 VND', '313.38 VND', '430.9 VND', '301.0 VND']"
+,,,,,
+HCM (RDBMS)_order_reviews_dataset,order_id,object,0.00%,0,"['eb861063', 'a0a16ad4', '031cf878', '0860edc0', '34dbc307']"
+HN (CSV)_order_reviews_dataset,order_id,object,0.00%,0,"['0c6c1348', '06d5050a', 'e1b01151', 'a1adbc48', '6d28187c']"
+DN (CSV)_order_reviews_dataset,order_id,object,0.00%,0,"['3badd95f', '081b3cfa', 'c1bf0c45', '24a14f64', 'f0732372']"
+HCM (RDBMS)_order_reviews_dataset,review_answer_timestamp,datetime64[ns],0.00%,0,"[Timestamp('2020-01-21 09:00:00'), Timestamp('2020-02-02 16:00:00'), Timestamp('2020-01-02 14:00:00'), Timestamp('2020-01-28 20:00:00'), Timestamp('2020-01-29 16:00:00')]"
+HN (CSV)_order_reviews_dataset,review_answer_timestamp,object,0.00%,0,"['19/01/2020 10:00', '27/01/2020 17:00', '01/02/2020 17:00', '21/01/2020 08:00', '24/01/2020 13:00']"
+DN (CSV)_order_reviews_dataset,review_answer_timestamp,object,0.00%,0,"['2020/01/27 18:00', '2020/02/07 12:00', '2020/02/02 13:00', '2020/02/10 16:00', '2020/02/07 15:00']"
+HCM (RDBMS)_order_reviews_dataset,review_creation_date,datetime64[ns],0.00%,0,"[Timestamp('2020-01-20 09:00:00'), Timestamp('2020-02-01 16:00:00'), Timestamp('2020-01-01 14:00:00'), Timestamp('2020-01-27 20:00:00'), Timestamp('2020-01-28 16:00:00')]"
+HN (CSV)_order_reviews_dataset,review_creation_date,object,0.00%,0,"['18/01/2020', '26/01/2020', '31/01/2020', '20/01/2020', '23/01/2020']"
+DN (CSV)_order_reviews_dataset,review_creation_date,object,0.00%,0,"['2020/01/26', '2020/02/06', '2020/02/01', '2020/02/09', '2020/01/28']"
+HCM (RDBMS)_order_reviews_dataset,review_id,object,0.00%,0,"['bc6db415', '78eea731', '2904dbb3', '30fdf89f', 'c1375714']"
+HN (CSV)_order_reviews_dataset,review_id,object,0.00%,0,"['3e98a14c', 'bf8b693d', 'bacf5098', 'bad37a46', 'f5ad3549']"
+DN (CSV)_order_reviews_dataset,review_id,object,0.00%,0,"['ea70ee14', 'b2c6838a', '53726d39', 'cc24859d', 'd880013a']"
+HCM (RDBMS)_order_reviews_dataset,review_score,int64,0.00%,0,"[2, 5, 1, 3, 4]"
+HN (CSV)_order_reviews_dataset,review_score,int64,0.00%,0,"[3, 1, 5, 4, 2]"
+DN (CSV)_order_reviews_dataset,review_score,int64,0.00%,0,"[3, 1, 5, 2, 4]"
+,,,,,
+HCM (RDBMS)_sellers_dataset,seller_city,object,0.00%,0,['Thành phố Hồ Chí Minh']
+HN (CSV)_sellers_dataset,seller_city,object,0.00%,0,['Hà Nội']
+DN (CSV)_sellers_dataset,seller_city,object,0.00%,0,['Đà Nẵng']
+HCM (RDBMS)_sellers_dataset,seller_id,object,0.00%,0,"['SELL_0', 'SELL_1', 'SELL_2', 'SELL_3', 'SELL_4']"
+HN (CSV)_sellers_dataset,seller_id,object,0.00%,0,"['SELL_HN_0', 'SELL_HN_1', 'SELL_HN_2', 'SELL_HN_3', 'SELL_HN_4']"
+DN (CSV)_sellers_dataset,seller_id,object,0.00%,0,"['SELL_DN_0', 'SELL_DN_1', 'SELL_DN_2', 'SELL_DN_3', 'SELL_DN_4']"
+HCM (RDBMS)_sellers_dataset,seller_state,object,0.00%,0,['HCMC']
+HN (CSV)_sellers_dataset,seller_state,object,0.00%,0,['HN']
+DN (CSV)_sellers_dataset,seller_state,object,0.00%,0,['DN']
+HCM (RDBMS)_sellers_dataset,seller_zip_code_prefix,int64,0.00%,0,"[1026, 1020, 1018, 1017, 1025]"
+HN (CSV)_sellers_dataset,seller_zip_code_prefix,int64,0.00%,0,"[2003, 2007, 2000, 2005, 2019]"
+DN (CSV)_sellers_dataset,seller_zip_code_prefix,int64,0.00%,0,"[5007, 5006, 5010, 5014, 5008]"
+,,,,,
+HCM (RDBMS)_geolocation_dataset,geolocation_city,object,0.00%,0,"['Bình Thạnh', 'Quận 7', 'Quận 1', 'Quận 3', 'Thủ Đức']"
+HN (CSV)_geolocation_dataset,geolocation_city,object,0.00%,0,"['Quận Cầu Giấy', 'Quận Long Biên', 'Quận Hoàn Kiếm', 'Quận Ba Đình', 'Quận Đống Đa']"
+DN (CSV)_geolocation_dataset,geolocation_city,object,0.00%,0,"['Quận Thanh Khê', 'Quận Liên Chiểu', 'Quận Hải Châu', 'Quận Ngũ Hành Sơn', 'Quận Sơn Trà']"
+HCM (RDBMS)_geolocation_dataset,geolocation_lat,float64,0.00%,0,"[10.7427836, 10.79184833, 10.76408848, 10.8131444, 10.70577622]"
+HN (CSV)_geolocation_dataset,geolocation_lat,float64,0.00%,0,"[21.017013, 20.976545, 20.980327, 20.972826, 20.961939]"
+DN (CSV)_geolocation_dataset,geolocation_lat,float64,0.00%,0,"[16.037322, 16.049615, 16.030141, 16.035933, 16.02974]"
+HCM (RDBMS)_geolocation_dataset,geolocation_lng,float64,0.00%,0,"[106.72097305, 106.69389958, 106.68265382, 106.60423446, 106.64736032]"
+HN (CSV)_geolocation_dataset,geolocation_lng,float64,0.00%,0,"[105.813577, 105.803023, 105.809446, 105.762749, 105.802991]"
+DN (CSV)_geolocation_dataset,geolocation_lng,float64,0.00%,0,"[108.239327, 108.229118, 108.217182, 108.23999, 108.245908]"
+HCM (RDBMS)_geolocation_dataset,geolocation_state,object,0.00%,0,['HCMC']
+HN (CSV)_geolocation_dataset,geolocation_state,object,0.00%,0,['HN']
+DN (CSV)_geolocation_dataset,geolocation_state,object,0.00%,0,['DN']
+HCM (RDBMS)_geolocation_dataset,geolocation_zip_code_prefix,int64,0.00%,0,"[1000, 1001, 1002, 1003, 1004]"
+HN (CSV)_geolocation_dataset,geolocation_zip_code_prefix,int64,0.00%,0,"[2000, 2001, 2002, 2003, 2004]"
+DN (CSV)_geolocation_dataset,geolocation_zip_code_prefix,int64,0.00%,0,"[5000, 5001, 5002, 5003, 5004]"

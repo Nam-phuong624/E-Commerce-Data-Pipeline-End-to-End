@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+  # DATABASE 1: Chi nhánh HCM (Nguồn)
+  db_hcm:
+    image: postgres:15
+    container_name: postgres_hcm
+    environment:
+      POSTGRES_USER: namphuong
+      POSTGRES_PASSWORD: 2104
+      POSTGRES_DB: branch_hcm
+    ports:
+      - "5433:5432" # Máy thật dùng cổng 5433 để tránh trùng nếu bạn đã cài Postgres local
+
+  # DATABASE 2: Tổng hợp (Đích - Central)
+  db_central:
+    image: postgres:15
+    container_name: postgres_central
+    environment:
+      POSTGRES_USER: namphuong
+      POSTGRES_PASSWORD: 2104
+      POSTGRES_DB: postgres
+    ports:
+      - "5434:5432"
+
+  # ỨNG DỤNG PYTHON (Data App)
+  data_app:
+    build: .
+    container_name: python_container
+    depends_on:
+      - db_hcm
+      - db_central
+    volumes:
+      - .:/app
+    tty: true # <--- THÊM DÒNG NÀY: Giữ container luôn mở
+    stdin_open: true # <--- THÊM DÒNG NÀY: Cho phép tương tác với container
